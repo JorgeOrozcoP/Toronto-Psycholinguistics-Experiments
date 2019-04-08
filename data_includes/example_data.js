@@ -108,17 +108,17 @@ var items = [
     */
 
      //image that needs to be clicked
-     ["image", "Message", {html:'<img src = "http://www.sjsu.edu/linguistics/pics/lld_wordle_660px.jpg" />', transfer: "click"}],
+     ["image", "Message", {html:'<img src = "https://github.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/blob/image/img/149038850760.jpg" />', transfer: "click"}],
 
 
      //image with keypress, was a question that has a correct answer
      //let hasCorrect: false, if optinion based question
-     ["image", "Message", {html:'<img src = "http://www.sjsu.edu/linguistics/pics/lld_wordle_660px.jpg" />', transfer: "keypress"},
+     ["image", "Message", {html:'<img src = "https://github.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/blob/image/img/149038850760.jpg" />', transfer: "keypress"},
               "Question", {q: "Whats under 'Language'?", //the answer to this is "Knowlege"
                             as: ["Knowledge", "Skill", "Math", "Research"]}],
 
       //image that has a timer with a fill in question
-     ["image", "Message", {html:'<img src = "http://www.sjsu.edu/linguistics/pics/lld_wordle_660px.jpg" /><br><p>Please wait</p>', transfer: 10000},//look at image for 10secs
+     ["image", "Message", {html:'<img src = "https://github.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/blob/image/img/149038850760.jpg" /><br><p>Please wait</p>', transfer: 10000},//look at image for 10secs
         "Form", {html: 'Write something about image here: <input type="text" name="aboutImg">'}],
 
          //Multiple choice question with image options
