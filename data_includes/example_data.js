@@ -125,11 +125,11 @@ var items = [
           <td colspan="2"> <img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> </td> \
         </tr> \
         <tr> \
-          <td> what is the dog thinking </td> \
+          <td colspan="2"> what is the dog thinking? </td> \
         </tr> \
         <tr> \
-          <td> cookies </td> \
-          <td> homework </td> \
+          <td> Cookies </td> \
+          <td> Homework </td> \
         </tr> \
         <tr> \
           <td> <input type="radio" name="dog" value="opt1"> </td> \
