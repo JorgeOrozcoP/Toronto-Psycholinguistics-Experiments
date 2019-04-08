@@ -120,9 +120,9 @@ var items = [
       //image that has a timer with a fill in question
      ["image", 
         "Form", {html: ' \
-        <table> \
+        <table style="text-align:center;"> \
         <tr> \
-          <td> <img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> </td> \
+          <td colspan="2"> <img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> </td> \
         </tr> \
         <tr> \
           <td> what is the dog thinking </td> \
