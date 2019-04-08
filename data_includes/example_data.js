@@ -119,18 +119,21 @@ var items = [
 
       //image that has a timer with a fill in question
      ["image", 
-        "Form", {html: '<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> \
+        "Form", {html: ' \
         <table> \
         <tr> \
-          <td> header of the question </td> \
+          <td> <img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> </td> \
         </tr> \
         <tr> \
-          <td> first option </td> \
-          <td> second option </td> \
+          <td> what is the dog thinking </td> \
         </tr> \
         <tr> \
-          <td> <input type="radio" name="gender" value="opt1"> option 1 </td> \
-          <td> <input type="radio" name="gender" value="opt2"> option 2 </td> \
+          <td> cookies </td> \
+          <td> homework </td> \
+        </tr> \
+        <tr> \
+          <td> <input type="radio" name="dog" value="opt1"> </td> \
+          <td> <input type="radio" name="dog" value="opt2"> </td> \
         </tr>'}],
 
          //Multiple choice question with image options
