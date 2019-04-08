@@ -93,10 +93,10 @@ var items = [
       //obligatory option that includes a HTML file that is a questionnaire
       {html: { include: "example_intro.html" },
       //fields that need to have the right format when taking input from user
-      validators: {
-        //age has to be a number
-        age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
-        }
+      //validators: {
+      //  //age has to be a number
+      //  age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
+      //  }
     } ],
 
 
@@ -111,23 +111,23 @@ var items = [
      ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
 
 
-     //image with keypress, was a question that has a correct answer
-     //let hasCorrect: false, if optinion based question
-     ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "keypress"},
-              "Question", {q: "Whats under 'Language'?", //the answer to this is "Knowlege"
-                            as: ["Knowledge", "Skill", "Math", "Research"]}],
+//    //image with keypress, was a question that has a correct answer
+//    //let hasCorrect: false, if optinion based question
+//    ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "keypress"},
+//             "Question", {q: "Whats is the dog thinking?", //the answer to this is "Knowlege"
+//                           as: ["cookies", "sleeping", "homework", "eating"]}],
 
       //image that has a timer with a fill in question
      ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /><br><p>Please wait</p>', transfer: 10000},//look at image for 10secs
-        "Form", {html: 'Write something about image here: <input type="text" name="aboutImg">'}],
+        "Form", {html: '<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> <br>.Write something about image here: <input type="text" name="aboutImg">'}],
 
          //Multiple choice question with image options
-     ["image","PictureAccept", {s: "The sentence you want to show",
-                            //specify to press key "A" for image 1 in the as list, etc...
-                            as: [["A","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"],
-                                 ["B","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"],
-                                 ["C","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"],
-                                 ["D","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"]]}]
-
+//     ["image","PictureAccept", {s: "The sentence you want to show",
+//                            //specify to press key "A" for image 1 in the as list, etc...
+//                            as: [["A","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"],
+//                                 ["B","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"],
+//                                 ["C","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"],
+//                                 ["D","http://s7.postimg.org/sxksy19y3/EDL_Logo1.jpg"]]}]
+//
 
 ];
