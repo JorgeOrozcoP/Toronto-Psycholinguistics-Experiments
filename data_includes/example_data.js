@@ -4,7 +4,7 @@
 Template that gives examples of everything Ibex can do for experiments
 */
 
-// var shuffleSequence = seq("intro", seq("image"));
+var shuffleSequence = seq("intro", shuffle(randomize("image")));
 
 
 var defaults = [
