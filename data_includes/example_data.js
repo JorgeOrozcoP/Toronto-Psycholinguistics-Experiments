@@ -108,7 +108,7 @@ var items = [
     */
 
      //image that needs to be clicked
-     ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
+     //["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
 
 
 //    //image with keypress, was a question that has a correct answer
@@ -118,8 +118,20 @@ var items = [
 //                           as: ["cookies", "sleeping", "homework", "eating"]}],
 
       //image that has a timer with a fill in question
-     ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /><br><p>Please wait</p>', transfer: 10000},//look at image for 10secs
-        "Form", {html: '<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> <br>.Write something about image here: <input type="text" name="aboutImg">'}],
+     ["image", 
+        "Form", {html: '<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> \
+        <table> \
+        <tr> \
+          <td> header of the question </td> \
+        </tr> \
+        <tr> \
+          <td> first option </td> \
+          <td> second option </td> \
+        </tr> \
+        <tr> \
+          <td> <input type="radio" name="gender" value="opt1"> option 1 </td> \
+          <td> <input type="radio" name="gender" value="opt2"> option 2 </td> \
+        </tr>'}],
 
          //Multiple choice question with image options
 //     ["image","PictureAccept", {s: "The sentence you want to show",
