@@ -73,10 +73,10 @@ var items = [
     */
 
     //ends after timer (1000ms)
-    ["sep", "Separator", {transfer: 1000, normalMessage: "Please wait for the next sentence."}],
+    // ["sep", "Separator", {transfer: 1000, normalMessage: "Please wait for the next sentence."}],
 
     //ends when key is press
-    ["sep", "Separator", {transfer: "keypress", normalMessage: "Please press any key to continue."}],
+    // ["sep", "Separator", {transfer: "keypress", normalMessage: "Please press any key to continue."}],
 
 
     /*
