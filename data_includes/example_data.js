@@ -129,8 +129,8 @@ var items = [
 		
 	// Other image type questions 
 		
-     //image that needs to be clicked
-     //["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
+//   //image that needs to be clicked
+//   //["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
 
 
 //    //image with keypress, was a question that has a correct answer
