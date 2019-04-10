@@ -93,10 +93,10 @@ var items = [
       //obligatory option that includes a HTML file that is a questionnaire
       {html: { include: "example_intro.html" },
       //fields that need to have the right format when taking input from user
-      //validators: {
-      //  //age has to be a number
-      //  age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
-      //  }
+      validators: {
+        //age has to be a number
+        age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
+        }
     } ],
 
 
@@ -107,17 +107,7 @@ var items = [
     ===================
     */
 
-     //image that needs to be clicked
-     //["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
-
-
-//    //image with keypress, was a question that has a correct answer
-//    //let hasCorrect: false, if optinion based question
-//    ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "keypress"},
-//             "Question", {q: "Whats is the dog thinking?", //the answer to this is "Knowlege"
-//                           as: ["cookies", "sleeping", "homework", "eating"]}],
-
-      //image that has a timer with a fill in question
+      //Form for images. Copy-Paste this section to adapt
      ["image", 
         "Form", {html: ' \
         <table style="text-align:center;"> \
@@ -135,6 +125,19 @@ var items = [
           <td> <input type="radio" name="dog" value="opt1"> </td> \
           <td> <input type="radio" name="dog" value="opt2"> </td> \
         </tr>'}],
+		
+		
+	// Other image type questions 
+		
+     //image that needs to be clicked
+     //["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "click"}],
+
+
+//    //image with keypress, was a question that has a correct answer
+//    //let hasCorrect: false, if optinion based question
+//    ["image", "Message", {html:'<img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" />', transfer: "keypress"},
+//             "Question", {q: "Whats is the dog thinking?", //the answer to this is "Knowlege"
+//                           as: ["cookies", "sleeping", "homework", "eating"]}],		
 
          //Multiple choice question with image options
 //     ["image","PictureAccept", {s: "The sentence you want to show",
