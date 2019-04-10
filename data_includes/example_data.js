@@ -126,6 +126,27 @@ var items = [
           <td> <input type="radio" name="dog" value="opt2"> </td> \
         </tr>'}],
 		
+		      //Form for images. Copy-Paste this section to adapt
+     ["image", 
+        "Form", {html: ' \
+        <table style="text-align:center;"> \
+        <tr> \
+          <td colspan="3"> <img src = "https://raw.githubusercontent.com/JorgeOrozcoP/Toronto-Psycholinguistics-Experiments/image/img/149038850760.jpg" /> </td> \
+        </tr> \
+        <tr> \
+          <td colspan="3"> what is the dog thinking? </td> \
+        </tr> \
+        <tr> \
+          <td> Cookies </td> \
+          <td> Homework </td> \
+		  <td> sleeping </td> \
+        </tr> \
+        <tr> \
+          <td> <input type="radio" name="dog" value="opt1"> </td> \
+          <td> <input type="radio" name="dog" value="opt2"> </td> \
+		  <td> <input type="radio" name="dog" value="opt3"> </td> \
+        </tr>'}],
+		
 		
 	// Other image type questions 
 		
