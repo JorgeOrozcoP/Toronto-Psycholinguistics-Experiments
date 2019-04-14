@@ -11,7 +11,7 @@ var shuffleSequence = seq("intro", shuffle(randomize("image")));
 
 var showProgressBar = false
 var sendingResultsMessage = 'Sending results [in german]'
-var completionMessage = 'Thank you for participating [in german]'
+var completionMessage = 'Results sent successfully. Thank you for participating [in german]'
 var completionErrorMessage = 'The results were not sent. Please contact the experiment administrator [in german]'
 
 
