@@ -164,10 +164,10 @@ var items = [
         <tr> \
           <td> <input type="radio" name="dog" value="opt1"> </td> \
           <td> <input type="radio" name="dog" value="opt2"> </td> \
-      <td> <input type="radio" name="dog" value="opt3"> </td> \
-        </tr>'},
-      continueMessage: "Klicken Sie hier"
-        ]
+          <td> <input type="radio" name="dog" value="opt3"> </td> \
+        </tr>'}//,
+      //continueMessage: "Klicken Sie hier"
+        ],
 		
 		
 	// Other image type questions 
