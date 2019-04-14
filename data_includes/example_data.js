@@ -167,7 +167,7 @@ var items = [
       <td> <input type="radio" name="dog" value="opt3"> </td> \
         </tr>'},
       continueMessage: "Klicken Sie hier"
-        ],
+        ]
 		
 		
 	// Other image type questions 
