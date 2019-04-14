@@ -58,7 +58,8 @@ var defaults = [
         //"html" option is obligatory
         hideProgressBar: true,
         continueOnReturn: true,
-        saveReactionTime: true
+        saveReactionTime: true, 
+        continueMessage: "Klicken Sie hier bitte"
     }
 ];
 
@@ -165,8 +166,7 @@ var items = [
           <td> <input type="radio" name="dog" value="opt1"> </td> \
           <td> <input type="radio" name="dog" value="opt2"> </td> \
           <td> <input type="radio" name="dog" value="opt3"> </td> \
-        </tr>', 
-        continueMessage: "Klicken Sie hier bitte"},
+        </tr>'},
       
         ],
 		
