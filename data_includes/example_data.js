@@ -6,6 +6,15 @@ Template that gives examples of everything Ibex can do for experiments
 
 var shuffleSequence = seq("intro", shuffle(randomize("image")));
 
+
+// new variables added: 
+
+var showProgressBar = false
+var sendingResultsMessage = 'Sending results [in german]'
+var completionMessage = 'Thank you for participating [in german]'
+var completionErrorMessage = 'The results were not sent. Please contact the experiment administrator [in german]'
+
+
 var defaults = [
     "Separator", {
         transfer: 1000, //wait for 1000ms
