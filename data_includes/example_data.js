@@ -166,7 +166,7 @@ var items = [
           <td> <input type="radio" name="dog" value="opt2"> </td> \
       <td> <input type="radio" name="dog" value="opt3"> </td> \
         </tr>'},
-      {continueMessage: "Klicken Sie hier"}
+      continueMessage: "Klicken Sie hier"
         ],
 		
 		
