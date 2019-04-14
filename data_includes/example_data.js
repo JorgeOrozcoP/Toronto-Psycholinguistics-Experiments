@@ -6,7 +6,6 @@ Template that gives examples of everything Ibex can do for experiments
 
 var shuffleSequence = seq("intro", shuffle(randomize("image")));
 
-
 var defaults = [
     "Separator", {
         transfer: 1000, //wait for 1000ms
@@ -147,7 +146,7 @@ var items = [
 		  <td> <input type="radio" name="dog" value="opt3"> </td> \
         </tr>'}],
 
-      //Form for images. Adapted to control space after image
+      //Form for images. Adapted to control space after image, and added the continue message
      ["image", 
         "Form", {html: ' \
         <table style="text-align:center;"> \
@@ -166,7 +165,9 @@ var items = [
           <td> <input type="radio" name="dog" value="opt1"> </td> \
           <td> <input type="radio" name="dog" value="opt2"> </td> \
       <td> <input type="radio" name="dog" value="opt3"> </td> \
-        </tr>'}],
+        </tr>'},
+      "continueMessage": "Klicken Sie hier um fortzufahren"
+        ],
 		
 		
 	// Other image type questions 
